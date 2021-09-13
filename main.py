@@ -10,7 +10,7 @@ import numpy as np
 import tkinter as tk
 from tkinter.filedialog import askdirectory
 
-label = "pvc"
+label = "circle"
 files = []
 file_index = -1
 data_path = ""
