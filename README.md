@@ -1,5 +1,5 @@
 # Hough circle counter
-Circle counter application using computer vision hough algorithm.
+Circle counter application using computer vision hough circle transform algorithm. Another capabillity of this application is to save bounding boxes for object detection tasks for deep learning porpuses. It saves a `xml` file named the same as image name in opened directory for labels.
 
 ## Installation
 
