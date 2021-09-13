@@ -14,3 +14,18 @@ After installation run it by this command:
 ## Demo
 
 ![hough-counter-demo](https://user-images.githubusercontent.com/22914652/133030972-395a9b71-da7b-45e2-93d4-db14d1708989.png)
+
+## Config
+
+You can change default config using `init` function in `main.py` file:
+
+    config = {
+        "img_default_width": 600,
+        "img_default_height": 400,
+        "minDist": 22,
+        "minRadius": 22,
+        "maxRadius": 50,
+        "gaussian_default": 5,
+        "median_default": 7,
+        "threshold": 0
+    }
