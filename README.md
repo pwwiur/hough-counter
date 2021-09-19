@@ -1,5 +1,5 @@
 # Hough circle counter
-Circle counter application using computer vision hough circle transform algorithm. Another capabillity of this application is to save bounding boxes for object detection tasks for deep learning porpuses. It saves a `xml` file named the same as image name in opened directory for labels.
+Circle counter application using computer vision hough circle transform algorithm. Another capabillity of this application is to save bounding boxes for object detection tasks for deep learning porpuses. It saves a `xml` file named the same as image name in opened directory for labels. The structure of the xml file inherited from (labelImg)[https://github.com/qaprosoft/labelImg] project which is suitable for tensorflow. You can also open the same directory with labelImg to correct labels.
 
 ## Installation
 
