@@ -115,7 +115,7 @@ def load_image():
         to_be_saved["img"] = np.copy(arr_img)
         cv_img, circles = filter(arr_img)
         tk_img = ImageTk.PhotoImage(image=Image.fromarray(cv_img))
-        show_info(title + " Circles found: " + (0 if circles is None else str(len(circles[0, :]))))
+        show_info(title + " Circles found: " + str(0 if circles is None else len(circles[0, :])))
         set_image(tk_img)
         to_be_saved["file"] = files[file_index]
         to_be_saved["circles"] = circles
